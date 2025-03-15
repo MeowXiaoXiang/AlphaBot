@@ -1,0 +1,4 @@
+discord
+loguru
+PyNaCl
+python-dotenv
