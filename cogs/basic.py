@@ -1,13 +1,9 @@
 import discord
 from discord.ext import commands
 import yt_dlp
-import logging
+from loguru import logger
 import asyncio
 from discord import app_commands
-
-# 設定 log
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 class Basic(commands.Cog):
     def __init__(self, bot):
