@@ -36,7 +36,7 @@ async def on_ready():
     slash_command = await bot.tree.sync()
     logger.info(F'[初始化] 已同步 {len(slash_command)} 個斜線指令')
     logger.info('[初始化] 設定機器人的狀態')
-    activity = discord.CustomActivity(name="正在喝 咖啡") 
+    activity = discord.CustomActivity(name="無所事事中....") 
     await bot.change_presence(activity=activity)
     logger.info(f'[初始化] {bot.user} | Ready!')
 #-----------------------載入 Extension -------------------------
