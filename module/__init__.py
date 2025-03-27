@@ -10,3 +10,10 @@ This is the area for various modules used by the AlphaBot.
 # __all__ = [
 #     ['pyClassOrFunc']
 # ]
+
+from .custom import ViewPart
+
+
+__all__ = [
+    [ViewPart]
+]
